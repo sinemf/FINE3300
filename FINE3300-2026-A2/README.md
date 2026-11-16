@@ -54,7 +54,7 @@ The formulas are the same ones used by the Bank of Canada calculator:
 | Percent change | (new price − price) ÷ price × 100 |
 | Number of years | months between the two dates ÷ 12 |
 | Average annual rate of inflation | (CPI₂ ÷ CPI₁)^(1 ÷ number of years) − 1 |
-| Annual percentage change (graph) | CPI this month ÷ CPI in the same month one year earlier − 1 |
+| Annual percentage change (graph) | CPI this month ÷ CPI in the same month one year earlier - 1 |
 
 The Bank of Canada calculator does **not** use annual averages. For both years, it uses the CPI of the **most recent month in the data** (September in the current file). For example, "1914 to 2026" compares September 1914 (6.0) with September 2026 (170.0). When a year is entered on its own, my program does the same thing, so it gives exactly the same results as the website:
 
@@ -107,7 +107,7 @@ The blue line is the CPI (left axis), the orange line is the annual percentage c
 
 - **Prices are about 28 times higher than in 1914.** The CPI rose from 6.0 in September 1914 to 170.0 in September 2026. A basket that cost $100 in 1914 costs about $2,833 today, an average increase of 3.03% per year over 112 years.
 - **The CPI crosses the base line in 2002.** This is expected, because the index is scaled so that 2002 equals 100. The 12 monthly values for 2002 average 99.99.
-- **The early years were the most volatile.** Annual inflation reached about 21.6% in June 1920, after World War I, and then turned into deflation of about −17.8% by June 1921. There was another peak of about 17.5% in February 1948, after wartime price controls ended.
+- **The early years were the most volatile.** Annual inflation reached about 21.6% in June 1920, after World War I, and then turned into deflation of about -17.8% by June 1921. There was another peak of about 17.5% in February 1948, after wartime price controls ended.
 - **The Great Depression shows deflation.** Prices fell by as much as 12% per year (July 1931). The CPI did not return to its January 1930 level (9.4) until 1946.
 - **The "Great Inflation" of the 1970s and early 1980s.** Oil price shocks pushed inflation above 10%, with a peak of about 12.9% in July 1981. This is where the CPI line becomes much steeper. Inflation then fell quickly after the Bank of Canada raised interest rates in the early 1980s.
 - **Inflation targeting since 1991.** In 1991, the Bank of Canada and the federal government adopted inflation-control targets, which settled at 2% (inside a 1% to 3% range) by the mid-1990s. From 1992 to 2020, annual inflation averaged about 1.8% and was inside the 1% to 3% range about 76% of the time, which is why the orange line is much flatter in this period. The one-month jump of 2.6% in January 1991 is when the Goods and Services Tax (GST) was introduced.
@@ -194,7 +194,6 @@ Invalid input: the month must be between 01 and 12.
 - Bank of Canada, Inflation Calculator: https://www.bankofcanada.ca/rates/related/inflation-calculator/
 - Bank of Canada, Understanding the Consumer Price Index: https://www.bankofcanada.ca/2021/05/understanding-consumer-price-index/
 - Statistics Canada, Consumer price indexes: https://www.statcan.gc.ca/en/subjects-start/prices_and_price_indexes/consumer_price_indexes
-- FINE 3300 Lecture #4, #6, #7 and #8 slides and examples, including `Lottery.py`, `PandasExample.py` and the Lecture 7 (Matplotlib) and Lecture 8 (NumPy) notebooks (F. Habib, 2025)
 
 ## Author
 
